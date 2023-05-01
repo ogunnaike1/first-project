@@ -33,8 +33,26 @@
             display: none;
         }
     }
+    
     .subscribe-now{
         display: flex;
+    }
+    .Collective-Ltd{
+        font-size: 8px;
+        
+
+    }
+
+    .footer-icon{
+        display: flex;
+    }
+    .footer-buttom{
+        font-size: 8px;
+    }
+     .footer-icon1{
+        display: none;
+        max-width: 12%;
+
     }
     
 
@@ -70,6 +88,27 @@
        display: none;
         width: 80%;
         margin:0 auto 0 auto;
+    }
+    .Collective-Ltd{
+        font-size: 12px;
+        max-width: 90%;
+      
+        margin: 0 auto;
+
+    }
+    .footer-icon{
+        display: none;
+    }
+    .footer-buttom{
+        font-size: 12px;
+        max-width: 90%;
+      
+        margin: 0 auto;
+    }
+    .footer-icon1{
+        display: flex;
+        max-width: 40%;
+
     }
 
 }

@@ -25,6 +25,19 @@
   .subscribe-now {
     display: flex;
   }
+  .Collective-Ltd {
+    font-size: 8px;
+  }
+  .footer-icon {
+    display: flex;
+  }
+  .footer-buttom {
+    font-size: 8px;
+  }
+  .footer-icon1 {
+    display: none;
+    max-width: 12%;
+  }
 }
 @media (max-width: 991px) {
   .section4 {
@@ -48,6 +61,23 @@
     display: none;
     width: 80%;
     margin: 0 auto 0 auto;
+  }
+  .Collective-Ltd {
+    font-size: 12px;
+    max-width: 90%;
+    margin: 0 auto;
+  }
+  .footer-icon {
+    display: none;
+  }
+  .footer-buttom {
+    font-size: 12px;
+    max-width: 90%;
+    margin: 0 auto;
+  }
+  .footer-icon1 {
+    display: flex;
+    max-width: 40%;
   }
 }
 @media (min-width: 786px) {
@@ -495,4 +525,40 @@ i {
   font-family: "Work Sans", sans-serif;
   color: #8E8C8D;
   word-spacing: 8px;
+}
+
+.footer {
+  background-color: #B6E4EF;
+  padding-bottom: 50px;
+}
+.footer .Collective-Ltd {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+}
+.footer .Collective-Ltd .robin-ltd {
+  font-weight: 700;
+}
+.footer .footer-icon {
+  max-width: 12%;
+  justify-content: space-between;
+  margin: 10px auto 0 auto;
+}
+.footer .footer-icon i {
+  font-size: 23px;
+  color: black;
+}
+.footer .footer-buttom {
+  margin-top: 20px;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+}
+.footer .footer-icon1 {
+  justify-content: space-between;
+  margin: 10px auto 0 auto;
+}
+.footer .footer-icon1 i {
+  font-size: 23px;
+  color: black;
 }

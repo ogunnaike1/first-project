@@ -560,3 +560,58 @@ body{
         
     }
 }
+.footer{
+    background-color: #B6E4EF;
+    padding-bottom: 50px;
+    .Collective-Ltd{
+        
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+        .robin-ltd{
+            font-weight: 700;
+
+        }
+
+    }
+    .footer-icon{
+        
+       max-width: 12%;
+       
+      
+       justify-content: space-between;
+       margin: 10px auto 0 auto;
+       
+        i{
+            font-size: 23px;
+            color: black;
+
+
+        }
+        
+    }
+    .footer-buttom{
+        
+        margin-top: 20px;
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+
+    }
+    .footer-icon1{
+        
+        
+       
+        justify-content: space-between;
+        margin: 10px auto 0 auto;
+        
+         i{
+             font-size: 23px;
+             color: black;
+ 
+ 
+         }
+         
+     }
+    
+}
