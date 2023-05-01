@@ -1,0 +1,180 @@
+@media (min-width:575px){
+    .grid-container1{
+        i{
+            display: none;
+        }
+    }
+    
+
+}
+
+
+
+@media (max-width:575px) {
+    .grid-container1{
+        margin-top: 20px;
+        padding-top: 20px;
+        
+        i{
+            display: contents;
+        }
+    }
+    .case-studies{
+        display: none;
+    }
+}
+
+@media (min-width:991px){
+    .section4{
+        display: none;
+    }
+    .para{
+        .subscribe-now-phone{
+            display: none;
+        }
+    }
+    .subscribe-now{
+        display: flex;
+    }
+    
+
+}
+@media (max-width:991px){
+    .section4{
+        display: block;
+    }
+
+    .paragraphwrapper{
+        .sec2a{
+            
+        }
+        .sec2b{
+            display: none;
+        }
+
+    }
+    .para{
+       
+        width: 80%;
+        margin: 0 auto;
+        .subscribe-now-phone{
+            display: flex;
+            
+            margin-top: 20px;
+        }
+        .para3{
+            margin: 0 auto;
+        }
+    }
+    .subscribe-now{
+       display: none;
+        width: 80%;
+        margin:0 auto 0 auto;
+    }
+
+}
+@media (min-width:786px){
+    .subscribe-now-phone{
+        input{
+            width: 70%;
+
+        }
+
+    }
+
+}
+
+@media (max-width:786px){
+    .para{
+
+        .subscribe-now-phone{
+            
+            flex-direction: column;
+            input{
+                width: 100%;
+
+            }
+            
+            button {
+                
+            }
+
+        }
+    }
+    
+}
+
+@media (min-width:613px){
+    .subcribe{
+        max-width: 65%;
+
+    
+    .para3{
+        max-width:70%;
+    }
+}
+
+}
+@media (max-width:613px){
+    .subcribe{
+        max-width: 90%;
+    .para3{
+        
+        max-width: 100%;
+        .para-updates{
+            font-size: 24px;
+        }
+    }
+}
+
+}
+@media (min-width:418px){
+    .section4{
+        .img2{ 
+            margin: 0 auto;
+            width: 60%;
+          
+              img{
+                  width: 100%;
+                  
+                  
+              }
+          }
+    }
+    .paragraphwrapper{
+        .sec2a{
+            .foof-nu{
+                font-size: 38px;
+                font-weight: 600;
+            }
+
+        }
+
+    }
+
+}
+@media (max-width:418px){
+    .section4{
+        .img2{ 
+            margin: 0 auto;
+            width: 80%;
+          
+              img{
+                  width: 100%;
+                  
+                  
+              }
+          }
+    }
+    .paragraphwrapper{
+        .sec2a{
+            .foof-nu{
+                font-size: 22px;
+                font-weight: 600;
+            }
+
+        }
+
+    }
+
+}
