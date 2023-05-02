@@ -7,6 +7,9 @@
   .navbarDiv {
     height: 45px;
   }
+  .navbarDiv .navbarlink {
+    text-align: center;
+  }
 }
 @media (max-width: 575px) {
   .navbarDiv {
@@ -167,23 +170,14 @@ body {
   padding: 0;
 }
 
-.navwrapper {
-  position: relative;
-}
-.navwrapper .navbutton {
-  margin-right: 0%;
-  right: 0;
-  top: 2px;
-}
-.navwrapper .navbarDiv {
-  height: 45px;
-}
 .navwrapper .navbarDiv .navbarlink {
   margin: 0 auto;
   gap: 0 1%;
   font-size: 14px;
-  text-align: center;
   font-family: "Work Sans", sans-serif;
+}
+.navwrapper .navbarDiv .navbarlink .link-list {
+  margin: auto 0;
 }
 .navwrapper .navbarDiv .navbarlink .link-list a {
   color: #9391a4;

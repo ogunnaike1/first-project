@@ -6,44 +6,43 @@ body{
     padding: 0;
 }
 .navwrapper{
-    position: relative;
-.navbutton{
-    margin-right: 0%;
+    
    
-    right: 0;
-    top: 2px;
-    
-}
-.navbarDiv{
-    height: 45px;
-    
-.navbarlink{
-   
-    margin: 0 auto;
-    
-    gap:0 1%;
-    font-size: 14px;
-    text-align: center;
-    font-family: 'Work Sans', sans-serif;
-    .link-list{
+    .navbutton{
        
         
-        a{
-            color:#9391a4 ;
-            font-weight: 100;
-            width: 90px;
-           
-            padding: 0 5px;
+    }
+    .navbarDiv{
+       
+        
+    .navbarlink{
+      
+        margin: 0 auto;
+        
+        gap:0 1%;
+        font-size: 14px;
+       
+        font-family: 'Work Sans', sans-serif;
+        .link-list{
+            margin: auto 0;
            
             
+            a{
+                color:#9391a4 ;
+                font-weight: 100;
+                width: 90px;
+               
+                padding: 0 5px;
+               
+                
+            }
+    
         }
-
+      
+       
     }
-  
-   
-}
-}
-}
+    }
+    }
 .grid-container1{
     padding:0 0 0 0;
     

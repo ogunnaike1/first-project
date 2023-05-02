@@ -1,18 +1,45 @@
+@import'./mediaquery';
 body{
+    margin: 0;
+    padding: 0;
     
 }
 .navwrapper{
-    .navbarDiv{
-        height: 100px;
-    }
-
-}
-.line{
-  
-    font-size: 20px;
+    
    
-
-    span{
-        border-bottom: 2px solid black;
+    .navbutton{
+       
+        
     }
-}
+    .navbarDiv{
+     
+        
+    .navbarlink{
+      
+        margin: 0 auto;
+        
+        
+        font-size: 14px;
+      
+       
+        font-family: 'Work Sans', sans-serif;
+        .link-list{
+            margin: auto 0;
+           
+            
+            a{
+                color:#9391a4;
+                font-weight: 100;
+                width: 90px;
+               
+                padding: 0 5px;
+               
+                
+            }
+    
+        }
+      
+       
+    }
+    }
+    }
