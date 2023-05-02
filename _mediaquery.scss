@@ -9,8 +9,16 @@
 }
 
 
+@media (min-width:575px){
+    .navbarDiv{
+        height: 45px;
+    }
 
+}
 @media (max-width:575px) {
+    .navbarDiv{
+        height: 100%;
+    }
     .grid-container1{
         margin-top: 20px;
         padding-top: 20px;
@@ -24,7 +32,12 @@
     }
 }
 
+
+
 @media (min-width:991px){
+    .navbarlink{
+        width: 50%;
+    }
     .section4{
         display: none;
     }
@@ -58,6 +71,10 @@
 
 }
 @media (max-width:991px){
+    .navbarlink{
+        width: 70%;
+
+    }
     .section4{
         display: block;
     }
@@ -112,6 +129,22 @@
     }
 
 }
+@media (max-width:800px){
+    .navbarlink{
+        width: 90%;
+
+    }
+
+}
+@media (max-width:615px){
+    .navbarlink{
+        width: 100%;
+
+    }
+
+}
+
+
 @media (min-width:786px){
     .subscribe-now-phone{
         input{

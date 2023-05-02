@@ -3,7 +3,15 @@
     display: none;
   }
 }
+@media (min-width: 575px) {
+  .navbarDiv {
+    height: 45px;
+  }
+}
 @media (max-width: 575px) {
+  .navbarDiv {
+    height: 100%;
+  }
   .grid-container1 {
     margin-top: 20px;
     padding-top: 20px;
@@ -16,6 +24,9 @@
   }
 }
 @media (min-width: 991px) {
+  .navbarlink {
+    width: 50%;
+  }
   .section4 {
     display: none;
   }
@@ -40,6 +51,9 @@
   }
 }
 @media (max-width: 991px) {
+  .navbarlink {
+    width: 70%;
+  }
   .section4 {
     display: block;
   }
@@ -78,6 +92,16 @@
   .footer-icon1 {
     display: flex;
     max-width: 40%;
+  }
+}
+@media (max-width: 800px) {
+  .navbarlink {
+    width: 90%;
+  }
+}
+@media (max-width: 615px) {
+  .navbarlink {
+    width: 100%;
   }
 }
 @media (min-width: 786px) {
@@ -143,28 +167,21 @@ body {
   padding: 0;
 }
 
-.navwrapper {
-  position: relative;
-}
-.navwrapper .navbutton {
-  margin-right: 0%;
-  right: 0;
-  top: 2px;
-}
-.navwrapper .navbarDiv {
-  height: 45px;
-}
 .navwrapper .navbarDiv .navbarlink {
   margin: 0 auto;
-  width: 48%;
-  gap: 3%;
+  gap: 0 1%;
   font-size: 14px;
   text-align: center;
   font-family: "Work Sans", sans-serif;
 }
-.navwrapper .navbarDiv .navbarlink a {
+.navwrapper .navbarDiv .navbarlink .link-list {
+  margin: auto 0;
+}
+.navwrapper .navbarDiv .navbarlink .link-list a {
   color: #9391a4;
   font-weight: 100;
+  width: 90px;
+  padding: 0 5px;
 }
 
 .home-image {
@@ -242,6 +259,7 @@ body {
   display: none;
 }
 .grid-container1 .grid-cotentwrapper .grid-content .secondlink .workshops {
+  width: 85%;
   z-index: 1;
   position: absolute;
   top: 50%;
@@ -333,16 +351,27 @@ i {
   display: none;
 }
 .grid-container2 .grid-cotentwrapper .grid-content .secondlink .workshops {
+  width: 85%;
   z-index: 1;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
 }
-.grid-container2 .grid-cotentwrapper .grid-content .secondlink .workshops span {
+.grid-container2 .grid-cotentwrapper .grid-content .secondlink .workshops .span1 {
   z-index: -1;
   color: white;
   font-weight: 700;
+  font-family: "Work Sans", sans-serif;
+  font-size: 28px;
+  text-decoration: none;
+}
+.grid-container2 .grid-cotentwrapper .grid-content .secondlink .workshops .span2 {
+  z-index: -1;
+  color: white;
+  font-weight: 300;
   font-family: "Work Sans", sans-serif;
   font-size: 28px;
   text-decoration: none;
@@ -530,6 +559,7 @@ i {
 .footer {
   background-color: #B6E4EF;
   padding-bottom: 50px;
+  padding-top: 20px;
 }
 .footer .Collective-Ltd {
   display: flex;

@@ -1,0 +1,10 @@
+.navwrapper .navbarDiv {
+  height: 100px;
+}
+
+.line {
+  font-size: 20px;
+}
+.line span {
+  border-bottom: 2px solid black;
+}

@@ -1,0 +1,230 @@
+@import'./mediaquery';
+
+body{
+    
+    margin: 0;
+    padding: 0;
+}
+.navwrapper{
+    position: relative;
+.navbutton{
+    margin-right: 0%;
+   
+    right: 0;
+    top: 2px;
+    
+}
+.navbarDiv{
+    height: 45px;
+    
+.navbarlink{
+   
+    margin: 0 auto;
+    
+    gap:0 1%;
+    font-size: 14px;
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+    .link-list{
+       
+        
+        a{
+            color:#9391a4 ;
+            font-weight: 100;
+            width: 90px;
+           
+            padding: 0 5px;
+           
+            
+        }
+
+    }
+  
+   
+}
+}
+}
+.grid-container1{
+    padding:0 0 0 0;
+    
+      margin: 0;
+      text-align: center;
+
+      
+     
+      gap: 0;
+      .grid-cotentwrapper{
+        
+          .one{
+            background-color: #FEDE4F;
+           
+            display: flex;
+            
+            
+            
+           
+            h2{
+                
+                color: white;
+               margin: auto;
+               font-size: 95px;
+               font-weight: 600;
+               font-family:'Work Sans', sans-serif;
+                
+            }
+          
+             
+            
+              
+          }
+          .two{
+              background-image: url(../image/shop-image2.jpg);
+              background-size: cover;
+              
+          }
+          .three{
+              background-image: url(../image/shop-image2.jpg);
+              background-size: cover;
+              
+          }
+          .four{
+              background-image: url(../image/shop-image4.jpg);
+              background-size: cover;
+              
+          }
+          .five{
+              background-image: url(../image/shop-image5.jpg);
+              background-size: cover;
+              
+          }
+          .six{
+              background-image: url(../image/image-body6.webp);
+              background-size: cover;
+              
+          }
+          .seven{
+              background-image: url(../image/shop-image7.webp);
+              background-size: cover;
+              
+          }
+          .eight{
+              background-image: url(../image/image-body8.webp);
+              background-size: cover;
+              
+          }
+          .grid-content{
+          
+              height: 310px;
+              position: relative;
+  
+              .firstlink{
+                  .work{
+                   
+                      height: 100%;  
+                      position: relative;
+                     
+                      z-index: 99;
+                      background-color: transparent;
+                      padding: 0;
+                         
+                      
+                  }
+               
+                  
+              }
+            
+             
+              .secondlink{
+                  display: none;
+                  
+                  .workshops{
+                    
+                      
+                     z-index: 1;
+                      position: absolute;
+                      top: 50%;
+                      left: 50%;
+                       transform: translate(-50%, -50%);
+                       
+                      span{
+                          z-index: -1;
+                         
+                         color: white;
+                         font-weight: 700;
+                         font-family:'Work Sans', sans-serif;
+                         font-size: 28px;
+                         text-decoration: none;
+                        
+                        
+  
+                      }
+                      
+                         
+                }
+              }
+              
+             
+          }
+      
+          
+      
+        }
+  
+  }
+
+  .footer{
+    background-color: #B6E4EF;
+    padding-bottom: 50px;
+    padding-top: 20px;
+    .Collective-Ltd{
+        
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+        .robin-ltd{
+            font-weight: 700;
+
+        }
+
+    }
+    .footer-icon{
+        
+       max-width: 12%;
+       
+      
+       justify-content: space-between;
+       margin: 10px auto 0 auto;
+       
+        i{
+            font-size: 23px;
+            color: black;
+
+
+        }
+        
+    }
+    .footer-buttom{
+        
+        margin-top: 20px;
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+
+    }
+    .footer-icon1{
+        
+        
+       
+        justify-content: space-between;
+        margin: 10px auto 0 auto;
+        
+         i{
+             font-size: 23px;
+             color: black;
+ 
+ 
+         }
+         
+     }
+    
+}

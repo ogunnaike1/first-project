@@ -7,29 +7,40 @@ body{
 }
 
 .navwrapper{
-    position: relative;
-.navbutton{
-    margin-right: 0%;
+    
    
-    right: 0;
-    top: 2px;
+.navbutton{
+   
     
 }
 .navbarDiv{
-    height: 45px;
-.navbarlink{
+   
     
+.navbarlink{
+  
     margin: 0 auto;
-    width: 48%;
-    gap: 3%;
+    
+    gap:0 1%;
     font-size: 14px;
     text-align: center;
     font-family: 'Work Sans', sans-serif;
-  
-    a{
-        color:#9391a4 ;
-        font-weight: 100;
+    .link-list{
+        margin: auto 0;
+       
+        
+        a{
+            color:#9391a4 ;
+            font-weight: 100;
+            width: 90px;
+           
+            padding: 0 5px;
+           
+            
+        }
+
     }
+  
+   
 }
 }
 }
@@ -132,6 +143,8 @@ body{
                 display: none;
                 
                 .workshops{
+                  
+                    width: 85%;
                     
                    z-index: 1;
                     position: absolute;
@@ -275,14 +288,17 @@ body{
                   display: none;
                   
                   .workshops{
+                    width: 85%;
                       
                      z-index: 1;
                       position: absolute;
                       top: 50%;
                       left: 50%;
                        transform: translate(-50%, -50%);
+                       display: flex;
+                       flex-direction: column;
                        
-                      span{
+                      .span1{
                           z-index: -1;
                          
                          color: white;
@@ -294,6 +310,18 @@ body{
                         
   
                       }
+                      .span2{
+                        z-index: -1;
+                       
+                       color: white;
+                       font-weight: 300;
+                       font-family:'Work Sans', sans-serif;
+                       font-size: 28px;
+                       text-decoration: none;
+                      
+                      
+
+                    }
                       
                          
                   }
@@ -563,6 +591,7 @@ body{
 .footer{
     background-color: #B6E4EF;
     padding-bottom: 50px;
+    padding-top: 20px;
     .Collective-Ltd{
         
         display: flex;
