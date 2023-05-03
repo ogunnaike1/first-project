@@ -310,3 +310,54 @@ body {
   width: 100%;
   height: 100%;
 }
+
+.space-section3 {
+  padding: 0;
+}
+.space-section3 .section3 .grid-content {
+  height: 320px;
+}
+.space-section3 .section3 .grid-content img {
+  width: 100%;
+  height: 100%;
+}
+.space-section3 .section3 .grid-content:hover {
+  opacity: 0.5;
+}
+
+.footer {
+  background-color: #B6E4EF;
+  padding-bottom: 50px;
+  padding-top: 20px;
+}
+.footer .Collective-Ltd {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+}
+.footer .Collective-Ltd .robin-ltd {
+  font-weight: 700;
+}
+.footer .footer-icon {
+  max-width: 12%;
+  justify-content: space-between;
+  margin: 10px auto 0 auto;
+}
+.footer .footer-icon i {
+  font-size: 23px;
+  color: black;
+}
+.footer .footer-buttom {
+  margin-top: 20px;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+}
+.footer .footer-icon1 {
+  justify-content: space-between;
+  margin: 10px auto 0 auto;
+}
+.footer .footer-icon1 i {
+  font-size: 23px;
+  color: black;
+}
