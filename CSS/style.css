@@ -68,8 +68,15 @@
   .space-image .space-paragraph {
     width: 44%;
   }
+  .home-img {
+    display: none;
+  }
 }
 @media (max-width: 991px) {
+  .home-img {
+    display: block;
+    height: 450px;
+  }
   .navbarlink {
     width: 70%;
   }
@@ -135,6 +142,9 @@
   .navbarlink {
     width: 100%;
   }
+  .home-img {
+    height: 350px;
+  }
 }
 @media (min-width: 786px) {
   .subscribe-now-phone input {
@@ -199,6 +209,9 @@
   .paragrah1 {
     font-size: 40px;
   }
+  .home-img {
+    height: 200px;
+  }
 }
 body {
   margin: 0;
@@ -218,6 +231,9 @@ body {
   font-weight: 100;
   width: 90px;
   padding: 0 5px;
+}
+.navwrapper .navbarDiv .navbarlink .link-list a:hover {
+  color: #C38DA1;
 }
 
 .home-image {

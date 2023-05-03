@@ -89,11 +89,18 @@
             width: 44%;
         }
      }
-    
+     .home-img{
+       display: none;
+    }
     
 
 }
 @media (max-width:991px){
+
+    .home-img{
+        display: block;
+        height: 450px;
+    }
     
     .navbarlink{
         width: 70%;
@@ -179,6 +186,9 @@
     .navbarlink{
         width: 100%;
 
+    }
+    .home-img{
+        height: 350px;
     }
 
 }
@@ -294,5 +304,9 @@
     .paragrah1{
         font-size: 40px;
     }
+    .home-img{
+        height: 200px;
+    }
+
 
 }
