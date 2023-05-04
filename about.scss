@@ -129,8 +129,7 @@ body{
             .aboutwrapper1{
               
                 
-                background-color: red;
-               
+                
                 img{
                     width: 100%;
                    
@@ -192,6 +191,75 @@ body{
         }
 
     }
+    .section-cilent{
+        background-color: #FD9842;
+        padding: 60px 0 100px 0;
+        .para-cilent{
+          
+            font-weight: 700;
+            color: white;
+           
+            margin: 0 auto;
+            .para{
+                font-family: 'Work Sans', sans-serif;
+                letter-spacing: normal;
+                
+            }
+
+        }
+        .wrapper1{
+            width: 80%;
+            margin: 15px auto 0 auto;
+           
+        .img-wrapper1{
+           
+            
+           
+            
+          
+            .grid-child{
+              
+                height: 70px;
+                
+                
+                .pict{
+                    width: 60%;
+                    margin: 0 auto;
+                    height: 60%;
+                   
+                
+                    img{
+                        width: 100%;
+                        margin: 0 auto;
+                       height: 100%;
+                    }
+                }
+
+                
+            
+             
+            }
+        }
+    }
+    .company-wrapper{
+        width: 80%;
+        margin:0 auto ;
+        
+        .company-wrapper1{
+            display: flex;
+            flex-direction: column;
+            margin: 20px auto;
+            
+            color: white;
+            font-size: 18px;
+            font-weight: 200;
+            font-family: 'Work Sans', sans-serif;
+
+        }
+
+    }
+
+    }
 
     .aboutcontent-wrapper2{
         background-color: #00BBFF;
@@ -228,15 +296,71 @@ body{
 
                 }
                 .about-para2{
+                    color: black;
                     font-size: 18px;
                     font-weight: 200;
                     line-height: normal;
                     margin-top: 20px;
                     display: flex;
                     flex-direction: column;
+                    width: 70%;
 
                 }
               
+
+
+
+            }
+        }
+
+    }
+    .aboutcontent-wrapper3{
+        padding-bottom: 0;
+        background-color:#FFDF3E;
+       
+        .aboutwrapper{
+         
+           
+          
+            width: 60%;
+           margin: 0 auto;
+           
+            .aboutwrapper1{
+              
+                
+                
+                img{
+                    width: 100%;
+                    height: 100%;
+                   
+                }
+                
+            }
+            .aboutwrapper2{
+                font-family: 'Work Sans', sans-serif;
+                margin-top: 20%;
+               
+              
+                color: white;
+                .about-para1{
+                    font-size: 36px;
+                    font-weight: 600;
+                    line-height: normal;
+
+                }
+                .about-para2{
+                    font-size: 18px;
+                    font-weight: 200;
+                    line-height: normal;
+                    margin-top: 20px;
+                    display: flex;
+                    flex-direction: column;
+                    color: black;
+                    width: 70%;
+
+                }
+            
+             
 
 
 

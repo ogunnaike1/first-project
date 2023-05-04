@@ -71,6 +71,12 @@
   .home-img {
     display: none;
   }
+  .para-cilent {
+    width: 75%;
+  }
+  .para-cilent .para {
+    max-width: 35%;
+  }
 }
 @media (max-width: 991px) {
   .home-img {
@@ -131,6 +137,10 @@
   }
   .space-image .space-img2 {
     display: none;
+  }
+  .para-cilent .para {
+    max-width: 100%;
+    text-align: center;
   }
 }
 @media (max-width: 800px) {
@@ -193,6 +203,9 @@
   .paragrah1 {
     font-size: 66px;
   }
+  .para-cilent {
+    font-size: 38px;
+  }
 }
 @media (max-width: 418px) {
   .section4 .img2 {
@@ -211,6 +224,9 @@
   }
   .home-img {
     height: 200px;
+  }
+  .para-cilent {
+    font-size: 28px;
   }
 }
 body {
