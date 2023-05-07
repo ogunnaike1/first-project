@@ -304,7 +304,20 @@
             }
         }
      }
-   
+     .grid-cotentwrapper{
+        .one{
+            h2{
+                font-size: 92px;
+            }
+        }
+     }
+     .grid-cotentwrapper{
+        .one{
+            h1{
+                font-size: 45px;
+            }
+        }
+     }
 
 }
 @media (max-width:418px){
@@ -352,4 +365,20 @@
         }
      }
 
+     .grid-cotentwrapper{
+        .one{
+            h2{
+                font-size: 40px;
+            }
+        }
+     }
+     .grid-cotentwrapper{
+        .one{
+            h1{
+                font-size: 25px;
+            }
+        }
+     }
+
 }
+

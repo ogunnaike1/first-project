@@ -209,6 +209,12 @@
   .contact-section2 .contact-img h2 {
     font-size: 90px;
   }
+  .grid-cotentwrapper .one h2 {
+    font-size: 92px;
+  }
+  .grid-cotentwrapper .one h1 {
+    font-size: 45px;
+  }
 }
 @media (max-width: 418px) {
   .section4 .img2 {
@@ -233,6 +239,12 @@
   }
   .contact-section2 .contact-img h2 {
     font-size: 40px;
+  }
+  .grid-cotentwrapper .one h2 {
+    font-size: 40px;
+  }
+  .grid-cotentwrapper .one h1 {
+    font-size: 25px;
   }
 }
 body {
@@ -269,7 +281,6 @@ body {
 .grid-container1 .grid-cotentwrapper .one h2 {
   color: white;
   margin: auto;
-  font-size: 95px;
   font-weight: 600;
   font-family: "Work Sans", sans-serif;
 }
