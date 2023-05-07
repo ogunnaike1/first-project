@@ -206,6 +206,9 @@
   .para-cilent {
     font-size: 38px;
   }
+  .contact-section2 .contact-img h2 {
+    font-size: 90px;
+  }
 }
 @media (max-width: 418px) {
   .section4 .img2 {
@@ -227,6 +230,9 @@
   }
   .para-cilent {
     font-size: 28px;
+  }
+  .contact-section2 .contact-img h2 {
+    font-size: 40px;
   }
 }
 body {
@@ -272,7 +278,7 @@ body {
   background-size: cover;
 }
 .grid-container1 .grid-cotentwrapper .three {
-  background-image: url(../image/shop-image2.jpg);
+  background-image: url(../image/shop1.png);
   background-size: cover;
 }
 .grid-container1 .grid-cotentwrapper .four {
@@ -284,7 +290,7 @@ body {
   background-size: cover;
 }
 .grid-container1 .grid-cotentwrapper .six {
-  background-image: url(../image/image-body6.webp);
+  background-image: url(../image/shop2.png);
   background-size: cover;
 }
 .grid-container1 .grid-cotentwrapper .seven {
@@ -292,7 +298,7 @@ body {
   background-size: cover;
 }
 .grid-container1 .grid-cotentwrapper .eight {
-  background-image: url(../image/image-body8.webp);
+  background-image: url(../image/shop3.png);
   background-size: cover;
 }
 .grid-container1 .grid-cotentwrapper .grid-content {

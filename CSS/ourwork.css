@@ -254,118 +254,131 @@ body {
   width: 90px;
   padding: 0 5px;
 }
-
-.home-img {
-  width: 100%;
-}
-.home-img img {
-  width: 100%;
-  height: 100%;
+.navwrapper .navbarDiv .navbarlink .link-list a:hover {
+  color: #C38DA1;
 }
 
-.space-image {
-  display: flex;
-  justify-content: space-between;
-}
-.space-image .space-img1 {
-  height: 100%;
-  width: 28%;
-}
-.space-image .space-img1 img {
-  width: 100%;
-  height: 100%;
-}
-.space-image .space-paragraph {
-  height: auto;
-  padding-top: 20px;
-  font-family: "Work Sans", sans-serif;
-  background-color: #3AB3CF;
-  color: white;
+.grid-container1 {
+  padding: 0 0 0 0;
+  margin: 0;
   text-align: center;
+  gap: 0;
 }
-.space-image .space-paragraph .paragrah1 {
-  font-weight: 700;
-  width: 80%;
-  margin: 0 auto;
-  line-height: normal;
-  margin-top: 70px;
-}
-.space-image .space-paragraph .paragrah2 {
-  font-size: 18px;
-  font-weight: 600;
-  width: 70%;
-  margin: 0 auto;
-  line-height: 27px;
-  margin-top: 30px;
-}
-.space-image .space-paragraph .paragrah3 {
-  font-size: 18px;
-  font-weight: 200;
-  width: 80%;
-  margin: 0 auto;
-  line-height: 27px;
-  margin-top: 30px;
-}
-.space-image .space-paragraph .paragrah4 {
-  font-size: 18px;
-  font-weight: 600;
-  width: 80%;
-  margin: 0 auto;
-  margin-top: 27px;
-}
-.space-image .space-paragraph .paragrah5 {
+.grid-container1 .grid-cotentwrapper .one {
+  background-color: #20BCFC;
   display: flex;
-  flex-direction: column;
-  font-size: 18px;
-  font-weight: 200;
-  width: 70%;
-  margin: 0 auto;
-  line-height: 27px;
-  margin-top: 27px;
 }
-.space-image .space-paragraph .pargraph6 {
-  font-size: 18px;
-  font-weight: 200;
-  width: 80%;
-  margin: 0 auto;
-  line-height: 27px;
-  margin-top: 27px;
-}
-.space-image .space-paragraph .pargraph7 {
-  font-size: 18px;
-  font-weight: 200;
-  width: 80%;
-  margin: 0 auto;
-  line-height: 27px;
-  margin-top: 27px;
-}
-.space-image .space-paragraph .pargraph7 a {
-  text-decoration: none;
+.grid-container1 .grid-cotentwrapper .one h2 {
   color: white;
-  border: 1px solid white;
-  padding: 2px 10px;
+  margin: auto;
+  font-size: 95px;
+  font-weight: 600;
+  font-family: "Work Sans", sans-serif;
 }
-.space-image .space-img2 {
+.grid-container1 .grid-cotentwrapper .two {
+  background-image: url(../image/our1.png);
+  background-size: cover;
+}
+.grid-container1 .grid-cotentwrapper .three {
+  background-image: url(../image/our2.png);
+  background-size: cover;
+}
+.grid-container1 .grid-cotentwrapper .four {
+  background-image: url(../image/our3.png);
+  background-size: cover;
+}
+.grid-container1 .grid-cotentwrapper .five {
+  background-image: url(../image/our4.png);
+  background-size: cover;
+}
+.grid-container1 .grid-cotentwrapper .six {
+  background-image: url(../image/our5.png);
+  background-size: cover;
+}
+.grid-container1 .grid-cotentwrapper .seven {
+  background-image: url(../image/our6.png);
+  background-size: cover;
+}
+.grid-container1 .grid-cotentwrapper .eight {
+  background-image: url(../image/our7.png);
+  background-size: cover;
+}
+.grid-container1 .grid-cotentwrapper .nine {
+  background-image: url(../image/our8.png);
+  background-size: cover;
+}
+.grid-container1 .grid-cotentwrapper .ten {
+  background-image: url(../image/our9.png);
+  background-size: cover;
+}
+.grid-container1 .grid-cotentwrapper .eleven {
+  background-image: url(../image/our10.png);
+  background-size: cover;
+}
+.grid-container1 .grid-cotentwrapper .twelve {
+  background-image: url(../image/our11.png);
+  background-size: cover;
+}
+.grid-container1 .grid-cotentwrapper .thirteen {
+  background-image: url(../image/our12.png);
+  background-size: cover;
+}
+.grid-container1 .grid-cotentwrapper .fourteen {
+  background-image: url(../image/our13.png);
+  background-size: cover;
+}
+.grid-container1 .grid-cotentwrapper .fifteen {
+  background-image: url(../image/our14.png);
+  background-size: cover;
+}
+.grid-container1 .grid-cotentwrapper .sixteen {
+  background-image: url(../image/our15.png);
+  background-size: cover;
+}
+.grid-container1 .grid-cotentwrapper .seventeen {
+  background-image: url(../image/our16.png);
+  background-size: cover;
+}
+.grid-container1 .grid-cotentwrapper .eighteen {
+  background-image: url(../image/our17.png);
+  background-size: cover;
+}
+.grid-container1 .grid-cotentwrapper .ninteen {
+  background-image: url(../image/our18.png);
+  background-size: cover;
+}
+.grid-container1 .grid-cotentwrapper .twenty {
+  background-image: url(../image/our19.png);
+  background-size: cover;
+}
+.grid-container1 .grid-cotentwrapper .grid-content {
+  height: 310px;
+  position: relative;
+}
+.grid-container1 .grid-cotentwrapper .grid-content .firstlink .work {
   height: 100%;
-  width: 28%;
-}
-.space-image .space-img2 img {
-  width: 100%;
-  height: 100%;
-}
-
-.space-section3 {
+  position: relative;
+  z-index: 99;
+  background-color: transparent;
   padding: 0;
 }
-.space-section3 .section3 .grid-content {
-  height: 320px;
+.grid-container1 .grid-cotentwrapper .grid-content .secondlink {
+  display: none;
 }
-.space-section3 .section3 .grid-content img {
-  width: 100%;
-  height: 100%;
+.grid-container1 .grid-cotentwrapper .grid-content .secondlink .workshops {
+  z-index: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
-.space-section3 .section3 .grid-content:hover {
-  opacity: 0.5;
+.grid-container1 .grid-cotentwrapper .grid-content .secondlink .workshops span {
+  z-index: -1;
+  color: white;
+  font-weight: 700;
+  font-family: "Work Sans", sans-serif;
+  font-size: 28px;
+  text-decoration: none;
 }
 
 .footer {

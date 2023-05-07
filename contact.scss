@@ -47,8 +47,271 @@ body{
     }
     }
     }
+    .contact-section2{
+        padding: 0;
+            margin: 0;
+        .grid-contain {
+            height: 600px;
+            
+        }
+        .contact-img{
+            background-image: url(../image/contact-image1.webp);
+            background-size: cover;
+            display: flex;
+           
+           
+           
+             
+                    h2{
+                       
+                        font-weight: 600;
+                        text-align: center;
+                        margin: auto;
+                        color: white;
+                        
+                        font-family:'Work Sans', sans-serif;
+                    }
+    
+                }
+       
+        .input-wrapper{
+            background-color: #FF6161;
+            .input-content{
+                max-width: 83%;
+                margin: 20% auto 0 auto;
+               
+                padding: 0;
+                .input-content1{
+                    height: 35px;
+                  
+                    input{
+                        width:100%;
+                        height: 100%;
+                        outline: 0;
+                        font-size: 14px;
+                        font-family:'Work Sans', sans-serif;
+                        font-weight: 300;
+                 
+                        
+                    }
+                    ::placeholder{
+                        color: black;
 
+                    }
+                    
+                }
+                .four{
+                    height: 170px;
+                    textarea{
+                        width:100%;
+                        height: 100%;
+                        outline: 0;
+                        font-size: 14px;
+                        padding: 0;
+                        
+                    }
+                    ::placeholder{
+                        font-family:'Work Sans', sans-serif;
+                        font-weight: 300;
+                        color: black;
+                        
+                     
+                    }
+                }
 
+                .send-link{
+                    background-color: black;
+                    width: 97%;
+                    margin: 12px auto 0 auto;
+                    height: 45px;
+                    text-align: center;
+                    display: flex;
+                    padding: 0;
+                    align-items: center;
+                    a{
+                        text-decoration: none;
+                        color: white;
+                        font-size: 17px;
+                        font-family:'Work Sans', sans-serif;
+                        display: flex;
+                        
+                      align-items: center;
+                      justify-content: center;
+                        height: 100%;
+                        flex-grow: 1;
+                    }
+                }
+
+            }
+            .icon-link{
+                
+                display: flex;
+                width: 20%;
+                justify-content: space-between;
+               margin: 30px auto 0 auto;
+               
+                
+                i{
+                    font-size: 23px;
+                    color: black;
+                    
+                }
+            }
+
+        }
+        .the-robin{
+            background-color: #3AB3CF;
+            font-family:'Work Sans', sans-serif;
+            color: white;
+            text-align: center;
+            line-height: normal;
+            .robin-para1{
+                font-size: 57px;
+                font-weight: 700;
+                margin: 17% auto 0 auto;
+                width: 80%;
+
+            }
+            .robin-para2{
+                display: flex;
+                flex-direction: column;
+                font-weight: 200;
+                font-size: 20px;
+                margin-top: 20px;
+
+            }
+            .robin-para3{
+                font-weight: 200;
+                font-size: 20px;
+                margin-top: 20px;
+
+            }
+            .robin-para4{
+                font-weight: 200;
+                font-size: 20px;
+                margin-top: 20px;
+                display: flex;
+                flex-direction: column;
+
+            }
+            .robin-para5{
+                font-weight: 200;
+                font-size: 20px;
+                margin-top: 20px;
+                a{
+                    color: white;
+                }
+
+            }
+        }
+        .contact-img1{
+            background-image: url(../image/image-body4.webp);
+            background-size: cover;
+        }
+
+    }
+
+    .section3{
+        background-color: #FFAFCF;
+        
+        .subcribe{
+            
+            
+            margin: 0 auto;
+            align-items: center;
+            height: 210px;
+          
+            
+            .subscribe1{
+                
+    
+                .para{
+                   
+                    
+    
+                    .para3{
+                        
+                    display: flex;
+                    font-family: 'Work Sans', sans-serif;
+                    font-size: 27px;
+                    color: white;
+                    font-weight: 600;
+                    
+    
+                    .para-updates{
+    
+                       
+                    }
+                    i{
+                        font-size: 25px;
+                        background-color: #717070;
+                        padding: 12px 15px;
+                        border-radius: 50%;
+                        margin-right: 10px;
+                    }
+    
+                    }
+                    .subscribe-now-phone{
+                        width: 100%;
+                        
+                       
+                        justify-content: space-between;
+                        
+                        input{
+                            outline: 0;
+    
+                        }
+                        input::placeholder{
+                            color: #F5F3F3;
+                            font-size: 12px;
+                            
+                        }
+                        button{
+                            background-color:#717070 ;
+                            color: white;
+                            font-size: 12px;
+                            font-family: 'Open Sans', sans-serif;
+                            border: 0;
+                            padding: 8px 22px;
+                            span{
+                                
+                            }
+                        }
+                        
+                    }
+                    
+                   
+    
+                }
+            }
+            .subscribe-now{
+                
+                justify-content: space-between;
+                
+                
+                input{
+                    width: 70%;
+                    outline: 0;
+                    
+    
+                }
+                input::placeholder{
+                    color: #F5F3F3;
+                    font-size: 12px;
+                    
+                }
+                button{
+                    background-color:#717070 ;
+                    color: white;
+                    font-size: 12px;
+                    font-family: 'Open Sans', sans-serif;
+                    border: 0;
+                    padding: 8px 22px;
+                }
+            }
+            
+        }
+    }
 
     .footer{
         background-color: #B6E4EF;

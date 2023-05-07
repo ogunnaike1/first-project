@@ -206,6 +206,9 @@
   .para-cilent {
     font-size: 38px;
   }
+  .contact-section2 .contact-img h2 {
+    font-size: 90px;
+  }
 }
 @media (max-width: 418px) {
   .section4 .img2 {
@@ -227,6 +230,9 @@
   }
   .para-cilent {
     font-size: 28px;
+  }
+  .contact-section2 .contact-img h2 {
+    font-size: 40px;
   }
 }
 body {

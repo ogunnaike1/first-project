@@ -5,44 +5,50 @@ body{
     margin: 0;
     padding: 0;
 }
+
 .navwrapper{
     
    
-    .navbutton{
+.navbutton{
+   
+    
+}
+.navbarDiv{
+ 
+    
+.navbarlink{
+  
+    margin: 0 auto;
+    
+    
+    font-size: 14px;
+  
+   
+    font-family: 'Work Sans', sans-serif;
+    .link-list{
+        margin: auto 0;
        
         
-    }
-    .navbarDiv{
-       
-        
-    .navbarlink{
-      
-        margin: 0 auto;
-        
-        gap:0 1%;
-        font-size: 14px;
-       
-        font-family: 'Work Sans', sans-serif;
-        .link-list{
-            margin: auto 0;
+        a{
+            color:#9391a4;
+            font-weight: 100;
+            width: 90px;
+           
+            padding: 0 5px;
            
             
-            a{
-                color:#9391a4 ;
-                font-weight: 100;
-                width: 90px;
-               
-                padding: 0 5px;
-               
-                
-            }
-    
         }
-      
+        a:hover{
+            color: #C38DA1;
+        }
        
     }
-    }
-    }
+  
+   
+}
+}
+}
+
 .grid-container1{
     padding:0 0 0 0;
     
@@ -55,7 +61,7 @@ body{
       .grid-cotentwrapper{
         
           .one{
-            background-color: #FEDE4F;
+            background-color: #20BCFC;
            
             display: flex;
             
@@ -77,40 +83,101 @@ body{
               
           }
           .two{
-              background-image: url(../image/shop-image2.jpg);
+              background-image: url(../image/our1.png);
               background-size: cover;
               
           }
           .three{
-              background-image: url(../image/shop1.png);
+              background-image: url(../image/our2.png);
               background-size: cover;
               
           }
           .four{
-              background-image: url(../image/shop-image4.jpg);
+              background-image: url(../image/our3.png);
               background-size: cover;
               
           }
           .five{
-              background-image: url(../image/shop-image5.jpg);
+              background-image: url(../image/our4.png);
               background-size: cover;
               
           }
           .six{
-              background-image: url(../image/shop2.png);
+              background-image: url(../image/our5.png);
               background-size: cover;
               
           }
           .seven{
-              background-image: url(../image/shop-image7.webp);
+              background-image: url(../image/our6.png);
               background-size: cover;
               
           }
           .eight{
-              background-image: url(../image/shop3.png);
+              background-image: url(../image/our7.png);
               background-size: cover;
               
           }
+          .nine{
+            background-image: url(../image/our8.png);
+            background-size: cover;
+            
+        }
+        .ten{
+            background-image: url(../image/our9.png);
+            background-size: cover;
+            
+        }
+        .eleven{
+            background-image: url(../image/our10.png);
+            background-size: cover;
+            
+        }
+        .twelve{
+            background-image: url(../image/our11.png);
+            background-size: cover;
+            
+        }
+        .thirteen{
+            background-image: url(../image/our12.png);
+            background-size: cover;
+            
+        }
+        .fourteen{
+            background-image: url(../image/our13.png);
+            background-size: cover;
+            
+        }
+        .fifteen{
+            background-image: url(../image/our14.png);
+            background-size: cover;
+            
+        }
+        .sixteen{
+            background-image: url(../image/our15.png);
+            background-size: cover;
+            
+        }
+        .seventeen{
+            background-image: url(../image/our16.png);
+            background-size: cover;
+            
+        }
+        .eighteen{
+            background-image: url(../image/our17.png);
+            background-size: cover;
+            
+        }
+        .ninteen{
+            background-image: url(../image/our18.png);
+            background-size: cover;
+            
+        }
+        .twenty{
+            background-image: url(../image/our19.png);
+            background-size: cover;
+            
+        }
+          
           .grid-content{
           
               height: 310px;
@@ -171,7 +238,9 @@ body{
   
   }
 
-  .footer{
+
+
+.footer{
     background-color: #B6E4EF;
     padding-bottom: 50px;
     padding-top: 20px;
